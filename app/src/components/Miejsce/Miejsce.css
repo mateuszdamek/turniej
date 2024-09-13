@@ -1,0 +1,18 @@
+.miejsce-section {
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.miejsce-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.miejsce-description {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
