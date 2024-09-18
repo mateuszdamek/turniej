@@ -1,0 +1,50 @@
+.tabela-turnieju-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.tabela-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Stylowanie responsywne */
+@media (max-width: 768px) {
+    .tabela-title {
+        font-size: 28px;
+    }
+
+    .tabela {
+        font-size: 16px;
+    }
+}

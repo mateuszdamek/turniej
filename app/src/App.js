@@ -5,6 +5,8 @@ import Info from './components/Info/Info';
 import Zawodnicy from './components/Zawodnicy/Zawodnicy';
 import Miejsce from './components/Miejsce/Miejsce';
 import Kontakt from './components/Kontakt/Kontakt';
+import Tabela from './components/Tabela/Tabela';
+
 
 const App = () => {
     return (
@@ -13,6 +15,7 @@ const App = () => {
             <Hero />
             <Info />
             <Zawodnicy />
+            <Tabela />
             <Miejsce />
             <Kontakt />
         </div>

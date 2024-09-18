@@ -9,7 +9,7 @@ const Info = () => {
                 <p className="info-description">
                     Nasz turniej to jedno z najbardziej prestiżowych wydarzeń tenisowych w kraju.
                     Rywalizuj z najlepszymi zawodnikami w atmosferze sportowej rywalizacji i wielkich emocji.
-                    Start już w czerwcu 2024 roku!
+                    Start już w październiku 2024 roku!
                 </p>
             </div>
         </section>
