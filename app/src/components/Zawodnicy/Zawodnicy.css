@@ -1,14 +1,13 @@
 .zawodnicy-section {
     background-color: #010101;
-    color: #eee;
-    padding: 100px 0;
+    color: white;
     text-align: center;
 }
 
 /* CSS Slider */
 .slider {
-    height: 100vh;
-    margin-top: -50px;
+    height: 80vh;
+    margin-top: -30px;
     position: relative;
 }
 
@@ -45,12 +44,23 @@
     z-index: 1;
 }
 
+.slider .list .item .content p {
+    font-size: 1.2rem; /* Powiększenie czcionki dla paragrafów */
+    color: #fff; /* Ustaw kolor tekstu (jeśli potrzebne) */
+}
+
+.slider .list .item .content h2 {
+    font-size: 2rem; /* Powiększenie czcionki dla nagłówków */
+    color: #fff; /* Ustaw kolor tekstu (jeśli potrzebne) */
+    margin: 0.5rem 0; /* Marginesy dla lepszej czytelności */
+}
+
 .slider .list .item.active {
     opacity: 1;
     z-index: 10;
 }
 
-.arrows {
+/* .arrows {
     position: absolute;
     top: 30%;
     right: 50px;
@@ -71,8 +81,8 @@
 
 .arrows button:hover {
     background-color: #eee;
-    color: black;
-}
+    color: black; 
+} */
 
 .thumbnail {
     position: absolute;
@@ -104,5 +114,5 @@
 }
 
 .thumbnail .item.active {
-    filter: brightness(1.5);
+    filter: brightness(1.05);
 }

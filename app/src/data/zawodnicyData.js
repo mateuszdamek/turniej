@@ -6,10 +6,10 @@ import img5 from '../assets/images/arek.jpg';
 import img6 from '../assets/images/kamil.jpg';
 
 export const zawodnicy = [
-    { id: 1, img: img1, title: 'Mateusz', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
-    { id: 2, img: img2, title: 'Sebastian', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
-    { id: 3, img: img3, title: 'Tomasz', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
-    { id: 4, img: img4, title: 'Bartłomiej', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
-    { id: 5, img: img5, title: 'Arkadiusz', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
-    { id: 6, img: img6, title: 'Kamil', description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' },
+    { id: 1, img: img1, title: 'Mateusz', description: 'Sam seks' },
+    { id: 2, img: img2, title: 'Sebastian', description: 'Zjebson' },
+    { id: 3, img: img3, title: 'Tomasz', description: 'Pizdeczka' },
+    { id: 4, img: img4, title: 'Bartłomiej', description: 'Nigger' },
+    { id: 5, img: img5, title: 'Arkadiusz', description: 'Kocopoł' },
+    { id: 6, img: img6, title: 'Kamil', description: 'Cipendejs' },
 ];

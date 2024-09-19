@@ -11,9 +11,9 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <button onClick={() => scrollToSection('hero')}>Hero</button>
             <button onClick={() => scrollToSection('info')}>Info</button>
             <button onClick={() => scrollToSection('zawodnicy')}>Zawodnicy</button>
+            <button onClick={() => scrollToSection('tabela-turnieju')}>Tabela</button>
             <button onClick={() => scrollToSection('miejsce')}>Miejsce</button>
             <button onClick={() => scrollToSection('kontakt')}>Kontakt</button>
         </nav>
