@@ -8,20 +8,79 @@
     font-size: 2.5rem;
     font-weight: bold;
     color: #333;
+    padding-bottom: 20px;
 }
 
 .kontakt-description {
     font-size: 1.2rem;
     color: #555;
     max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.kontakt-form {
+    max-width: 600px;
     margin: 0 auto;
+    text-align: left;
 }
 
-.kontakt-description a {
-    color: #00bfff;
-    text-decoration: underline;
+.form-group {
+    margin-bottom: 20px;
 }
 
-.kontakt-description a:hover {
-    color: #007acc;
+.form-group label {
+    display: block;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.submit-button {
+    background-color: #00bfff;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: monospace;
+    display: block;        /* Ustawienie na blok */
+    margin: 50px auto;
+}
+
+.submit-button:hover {
+    background-color: orange;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+    .kontakt-title {
+        font-size: 2rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 1rem;
+    }
+
+    .submit-button {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
 }
