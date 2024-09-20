@@ -44,23 +44,39 @@
 
 /* Stylowanie responsywne dla mniejszych ekranów */
 @media (max-width: 768px) {
-    .tabela-title {
-        font-size: 28px;
-    }
-
-    .tabela-wrapper {
-        overflow-x: auto; /* Pozwala na przewijanie w poziomie */
-        width: 100%;
-    }
-
     .tabela {
-        width: 100%;
-        min-width: 600px; /* Ustaw minimalną szerokość tabeli */
+        display: block; /* Zmień tabelę na blok */
+    }
+
+    .tabela thead {
+        display: none; /* Ukryj nagłówki tabeli */
+    }
+
+    .tabela tbody {
+        display: block;
+    }
+
+    .tabela tbody tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+
+    .tabela tbody tr td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border: none;
         font-size: 16px;
     }
 
-    .tabela th, .tabela td {
-        font-size: 14px;
-        padding: 6px;
+    .tabela tbody tr td::before {
+        content: attr(data-label); /* Użyj atrybutu data-label */
+        font-weight: bold;
+        margin-right: 10px;
     }
 }

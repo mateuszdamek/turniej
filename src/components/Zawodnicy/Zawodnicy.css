@@ -33,7 +33,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    background-image: linear-gradient(to top, #000 40%, transparent);
+    background-image: linear-gradient(to top, #000 30%, transparent);
 }
 
 .slider .list .item .content {
@@ -97,25 +97,33 @@
 /* Stylowanie dla małych ekranów (np. telefonów komórkowych) */
 @media (max-width: 768px) {
     .thumbnail {
-        height: auto;
-        justify-content: space-between; /* Rozstawienie kart równomiernie */
+        display: none; /* Ukryj miniaturki na małych ekranach */
     }
 
-    .thumbnail .item {
-        width: 45%; /* Dwie karty na rząd */
+    .slider .list .item .content {
+        position: absolute;
+        width: 500px;
+        max-width: 80%;
+        z-index: 1;
+        bottom: 0;
     }
-}
-
-/* Stylowanie dla średnich ekranów (np. tabletów) */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .thumbnail .item {
-        width: 30%; /* Trzy karty na rząd */
+    .arrows {
+        position: relative;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+        z-index: 10;
+        padding-left: 10px;
+        padding-right: 10px;
     }
-}
 
-/* Stylowanie dla dużych ekranów (np. komputerów) */
-@media (min-width: 1024px) {
-    .thumbnail .item {
-        width: 150px; /* Jak dotychczas - sześć kart w widoku */
+    .arrows button {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
     }
 }

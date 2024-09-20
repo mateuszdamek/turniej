@@ -39,11 +39,11 @@ const Tabela = () => {
                     <tbody>
                         {posortowaneWyniki.map((zawodnik, index) => (
                             <tr key={index}>
-                                <td>{zawodnik.title}</td>
-                                <td>{zawodnik.rozegrane}</td>
-                                <td>{zawodnik.wygrane}</td>
-                                <td>{zawodnik.przegrane}</td>
-                                <td>{zawodnik.punkty}</td>
+                                <td data-label="Zawodnik">{zawodnik.title}</td>
+                                <td data-label="Rozegrane mecze">{zawodnik.rozegrane}</td>
+                                <td data-label="Wygrane">{zawodnik.wygrane}</td>
+                                <td data-label="Przegrane">{zawodnik.przegrane}</td>
+                                <td data-label="Punkty">{zawodnik.punkty}</td>
                             </tr>
                         ))}
                     </tbody>
