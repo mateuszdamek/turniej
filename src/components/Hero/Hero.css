@@ -60,23 +60,21 @@
   }
   
   .btn {
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 1rem 2rem;
-    background-color: #ff9800;
+    background-color: #00bfff;
     color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.40rem;
-    font-family: monospace;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 12px 20px;
     border: none;
-  }
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: monospace;
+    display: block;        /* Ustawienie na blok */
+    margin: 50px auto;
+}
   
   .btn:hover {
-    background-color: #e68a00;
+    background-color: orange;
   }
   
   /* Efekt hover */

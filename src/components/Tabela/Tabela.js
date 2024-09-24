@@ -4,11 +4,11 @@ import { zawodnicy } from '../../data/zawodnicyData'; // Import danych zawodnikÃ
 
 const Tabela = () => {
     const [wyniki, setWyniki] = useState([
-        { ...zawodnicy[0], rozegrane: 4, wygrane: 0, przegrane: 4, punkty: 0 },
+        { ...zawodnicy[0], rozegrane: 7, wygrane: 1, przegrane: 6, punkty: 1 },
         { ...zawodnicy[1], rozegrane: 4, wygrane: 4, przegrane: 0, punkty: 4 },
-        { ...zawodnicy[2], rozegrane: 4, wygrane: 3, przegrane: 1, punkty: 3 },
-        { ...zawodnicy[3], rozegrane: 0, wygrane: 0, przegrane: 0, punkty: 0 },
-        { ...zawodnicy[4], rozegrane: 4, wygrane: 2, przegrane: 2, punkty: 2 },
+        { ...zawodnicy[2], rozegrane: 7, wygrane: 5, przegrane: 2, punkty: 5 },
+        { ...zawodnicy[3], rozegrane: 3, wygrane: 2, przegrane: 1, punkty: 2 },
+        { ...zawodnicy[4], rozegrane: 7, wygrane: 3, przegrane: 4, punkty: 3 },
         { ...zawodnicy[5], rozegrane: 4, wygrane: 1, przegrane: 3, punkty: 1 },
     ]);
 

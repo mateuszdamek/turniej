@@ -22,7 +22,7 @@ const upcomingMatches = [
         date: '2024-09-24',
         time: '17:00',
         name: 'Wimbledon',
-        status: 'Zaplanowane'
+        status: 'Zakończone'
     },
     {
         id: 3,

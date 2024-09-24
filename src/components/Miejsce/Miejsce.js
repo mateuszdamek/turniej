@@ -6,7 +6,7 @@ const Miejsce = () => {
         <section id="miejsce" className="miejsce-section">
             <div className="container">
                 <h2 className="miejsce-title">Miejsce Turnieju</h2>
-                <p className="miejsce-description">
+                <p className="miejsce-description">Znajdziesz nas na kortach tenisowych w Bystrej. Serdecznie zapraszamy.
                     
                 </p>
                 <div className="map-container">
